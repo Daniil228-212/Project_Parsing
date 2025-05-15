@@ -1,4 +1,6 @@
 ```python
+import os
+os.makedirs("dashboard/plots", exist_ok=True)
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
