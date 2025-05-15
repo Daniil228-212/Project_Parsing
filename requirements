@@ -1,1 +1,8 @@
-
+requirements.txt:
+undetected-chromedriver
+selenium
+pandas
+matplotlib
+seaborn
+wordcloud
+plotly
