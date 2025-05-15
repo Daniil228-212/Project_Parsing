@@ -101,7 +101,7 @@ def scrape_betboom():
     # Сохраняем данные в DataFrame и в CSV файл
     df = pd.DataFrame(match_data)
     df.drop_duplicates(inplace=True)  # Удаляем дубликаты
-    df.to_csv("winline_data_clean.csv", index=False)
+    df.to_csv("data/winline_data_clean.csv", index=False)
     return df
 
 # Запускаем функцию для сбора данных
